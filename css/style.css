@@ -50,7 +50,15 @@ body {
     background-color: #EDEDED;
 }
 
-.nav-links a{
+.nav-text{
     color: #3C3D37;
     text-transform: uppercase;
+}
+
+.nav-links a {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10%;
 }
