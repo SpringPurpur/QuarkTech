@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #03C988;
-    --dark-color: #13005A;
+    --primary-color: #0066CC;
+    --dark-color: #000033;
 }
 
 * {
@@ -47,5 +47,10 @@ body {
 }
 
 .bg-white {
-    background-color: white;
+    background-color: #EDEDED;
+}
+
+.nav-links a{
+    color: #3C3D37;
+    text-transform: uppercase;
 }
