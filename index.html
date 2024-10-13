@@ -1,24 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="proton.webp" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="proton.webp" type="image/x-icon" />
     <title>QuarkTech</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="navbar flex-row bg-white justify-around items-center">
-            <div class="logo">
-                <a href="index.html"><img src="proton.webp" alt="" width="50px" height="50px"></a>
-            </div>
-            <div class="nav-links">
-                <a href="pages/admin.html" class="nax-text"><i class="fa-solid fa-user-secret"></i>Admin</a>
-                <a href="pages/cart.html" class="nax-text"><i class="fa-solid fa-shopping-cart"></i>Cart</a>
-            </div>
+      <div class="navbar flex-row bg-white justify-around items-center">
+        <div class="logo">
+          <a href="index.html">
+            <img src="proton.webp" alt="" width="50px" height="50px"/>
+            <h1 class="inline items-center">QuarkTech</h1>
+        </a>
         </div>
+        <div class="nav-links">
+          <a href="pages/admin.html"
+            ><i class="fa-solid fa-user-secret"></i>Admin</a
+          >
+          <a href="pages/cart.html"
+            ><i class="fa-solid fa-shopping-cart"></i>Cart</a
+          >
+        </div>
+      </div>
+      <div class="card-container flex-row justify-center wrap-around gap-20 padding-20 bg-pale-white">
+        <div
+          class="product-card flex-col flex-responsive justify-between items-center padding-20 bg-white gray-border">
+          <img
+            src="https://4.grgs.ro/images/products/1/2180/2694479/normal/raptor-lake-refresh-core-i7-14700kf-34ghz-box-f7f5608ef4d48dd5adf411ed77ee5aa3.jpg"
+            alt=""/>
+          <p class="product-description padding-5">
+            Procesor Intel Raptor Lake Refresh, Core i7 14700KF 3.4GHz box
+          </p>
+          <p class="price padding-5">1889,99 RON</p>
+          <button class="details">Details</button>
+        </div>
+        <div
+          class="product-card flex-col flex-responsive justify-between items-center padding-20 bg-white gray-border">
+          <img
+            src="https://5.grgs.ro/images/products/1/8441/2092838/normal/ryzen-5-3500x-36ghz-box-dc465714be411616ae07f6690afd1fa5.jpg"
+            alt=""/>
+          <p class="product-description padding-5">
+            Procesor AMD Ryzen 5 3500X 3.6GHz box
+          </p>
+          <p class="price padding-5">301,74 RON</p>
+          <button class="details">Details</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -1,6 +1,7 @@
 :root {
     --primary-color: #0066CC;
     --dark-color: #000033;
+    --border-color: #C0C0C0;
 }
 
 * {
@@ -13,6 +14,8 @@ body {
     background-color: var(--primary-color);
 }
 
+/* Flex classes, diplaying */
+
 .flex-row {
     display: flex;
 }
@@ -20,6 +23,10 @@ body {
 .flex-col {
     display: flex;
     flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .justify-around {
@@ -34,6 +41,22 @@ body {
     align-items: center;
 }
 
+.wrap-around {
+    flex-wrap: wrap;
+}
+
+.flex-responsive {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.inline {
+    display: inline;
+}
+
+/* gap, padding, margin, borders */
+
 .gap-5 {
     gap: 5px;
 }
@@ -43,17 +66,43 @@ body {
 }
 
 .gap-20 {
-    gap: 5px;
+    gap: 20px;
 }
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+/* text, background coloring, borders */
 
 .bg-white {
     background-color: #EDEDED;
 }
 
-.nav-text{
+.bg-pale-white {
+    background-color: #FFFFFF;
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.gray-border {
+    border: 2px solid var(--border-color);
+}
+
+/* .nav-text{
     color: #3C3D37;
     text-transform: uppercase;
-}
+} */
 
 .nav-links a {
     background-color: var(--primary-color);
@@ -61,4 +110,16 @@ body {
     text-decoration: none;
     padding: 5px;
     border-radius: 10%;
+}
+
+/* .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.product-card{
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
 }
