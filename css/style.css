@@ -14,7 +14,7 @@ body {
     background-color: var(--primary-color);
 }
 
-/* Flex classes, diplaying */
+/* Responsiveness, flex classes, diplaying */
 
 .flex-row {
     display: flex;
@@ -53,6 +53,12 @@ body {
 
 .inline {
     display: inline;
+}
+
+.responsive-margins {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* gap, padding, margin, borders */
